@@ -1,1 +1,14 @@
-/* #e74c3c */
+/* #e74c3c 
+
+
+    font-family: 'Source Sans Pro', ;
+
+    font-family: 'Noto Sans', ;
+
+*/
+body {
+    font-family: 'Source Sans Pro',sans-serif ; 
+}
+h1, h2,h3,h4{
+    font-family: 'Noto Sans', ;
+}
