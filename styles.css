@@ -12,3 +12,54 @@ body {
 h1, h2,h3,h4{
     font-family: 'Noto Sans', ;
 }
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+}
+.header__wrap {
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    height: inherit;
+    width: 1000px;
+    margin: 0 auto;
+} 
+.header__wrap--figure{
+    display: inherit;
+    align-items: inherit;
+    justify-content: space-around;
+}
+.header__wrap--figure a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.header__wrap--figure a strong span {
+    color :#e74c3c;
+}
+.header__wrap--figure img{
+    height: 50px;
+    width: 50px;
+}
+.header__wrap--nav {
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+}
+.header__wrap--nav-ul {
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    list-style: none;
+}
+.header__wrap--nav-ul a {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
