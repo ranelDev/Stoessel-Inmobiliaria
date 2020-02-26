@@ -92,3 +92,36 @@ h1, h2,h3,h4{
     font-size: 17px;
     font-family: 'Noto Sans';
 }
+.service{
+    background: white;
+    margin: 50px 0px; 
+}
+.service__wrap{
+    width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: "art1 art2"
+                         "art3 art4";
+}
+.art1{grid-area: art1;}.art2{grid-area: art2;}.art3{grid-area: art3;}.art4{grid-area: art4;}
+
+.service__wrap--article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+.service__wrap--article img{
+    width: 80px;
+    height: 80px;
+}
+.service__wrap--article h3{
+    color: #e74c3c ;
+    font-size: 22px;
+}
+.service__wrap--article p{
+    padding: 0 15px;
+    display: inherit;
+    align-items: flex-start;
+}
