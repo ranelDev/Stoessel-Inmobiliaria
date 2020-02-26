@@ -9,6 +9,9 @@
 body {
     font-family: 'Source Sans Pro',sans-serif ; 
 }
+h1{
+    font-size: 40px;
+}
 h1, h2,h3,h4{
     font-family: 'Noto Sans', ;
 }
@@ -16,8 +19,9 @@ h1, h2,h3,h4{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 100px;
+    height: 80px;
     width: 100%;
+    margin: 10px 0px;
 }
 .header__wrap {
     display: inherit;
@@ -62,4 +66,29 @@ h1, h2,h3,h4{
     text-decoration: none;
     font-size: 17px;
     color: black;
+}
+.hero{
+    background: no-repeat;
+    background-size: cover;
+    background-image: url(https://images.pexels.com/photos/358636/pexels-photo-358636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.hero__wrap{
+    display: inherit;
+    flex-direction: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    width: 1000px;
+    margin: 0 auto;
+    color: white;
+}
+.hero__wrap p{
+    color: black;
+    font-size: 17px;
+    font-family: 'Noto Sans';
 }
